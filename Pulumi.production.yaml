@@ -1,0 +1,4 @@
+encryptionsalt: v1:oRMt4H0YjWI=:v1:n+eDc23KwmCUc0GI:fkLFA2z1yBC+XdSjrScHUtQBGITNqw==
+config:
+  aws:region: ap-southeast-1
+  pulumi-test:project: pulumi-test
