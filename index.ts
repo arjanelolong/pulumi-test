@@ -4,7 +4,7 @@ import { getStack } from '@pulumi/pulumi';
 
 const config = new pulumi.Config();
 
-async function ec2() {
+async function provisionEC2() {
     const environment = getStack();
     const project = config.require('project');
 
@@ -146,6 +146,6 @@ async function ec2() {
 }
 
 module.exports = (async function(){ 
-    return await ec2();
+    return await provisionEC2();
  })();
 
